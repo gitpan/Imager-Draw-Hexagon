@@ -1,5 +1,5 @@
 package Imager::Draw::Hexagon;
-$Imager::Draw::Hexagon::VERSION = '0.0100';
+$Imager::Draw::Hexagon::VERSION = '0.0101';
 use strict;
 use Moo;
 use Imager;
@@ -11,7 +11,7 @@ Imager::Draw::Hexagon - Draw hexes easily using Imager
 
 =head1 VERSION
 
-version 0.0100
+version 0.0101
 
 =head1 SYNOPSIS
 
@@ -156,7 +156,7 @@ sub ns_coords {
 
 =head2 outline()
 
-Call this to draw an outline of a hex on the image. It accepts all the same parameters as L<Imager/polyline>, plus:
+Call this to draw an outline of a hex on the image. It accepts all the same parameters as L<Imager::Draw/polyline>, plus:
 
 =over
 
@@ -179,7 +179,7 @@ sub outline {
 
 =head2 draw()
 
-Call this to draw a filled hex on the image. It accepts all the same parameters as L<Imager/polygon>, plus:
+Call this to draw a filled hex on the image. It accepts all the same parameters as L<Imager::Draw/polygon>, plus:
 
 =over
 
