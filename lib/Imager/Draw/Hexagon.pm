@@ -1,5 +1,5 @@
 package Imager::Draw::Hexagon;
-$Imager::Draw::Hexagon::VERSION = '0.0101';
+$Imager::Draw::Hexagon::VERSION = '0.0102';
 use strict;
 use Moo;
 use Imager;
@@ -11,7 +11,7 @@ Imager::Draw::Hexagon - Draw hexes easily using Imager
 
 =head1 VERSION
 
-version 0.0101
+version 0.0102
 
 =head1 SYNOPSIS
 

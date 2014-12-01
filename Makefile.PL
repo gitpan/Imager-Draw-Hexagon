@@ -22,9 +22,10 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Imager" => 0,
     "Moo" => 0,
+    "Test::Deep" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.0101",
+  "VERSION" => "0.0102",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -34,6 +35,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Imager" => 0,
   "Moo" => 0,
+  "Test::Deep" => 0,
   "Test::More" => 0
 );
 
